@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dulce Frío | Sabor que provoca</title>
+
+    <meta
+        name="description"
+        content="DULCE FRÍO: helados refrescantes, deliciosos y llenos de sabor. Compra nuestros helados, haz tus pedidos o empieza tu propio negocio con nuestras opciones al por mayor."
+    >
+
+    <meta
+        name="keywords"
+        content="Dulce Frío, helados, helados con chamoy, Mangobiche, Maracumango, bolis, helados al por mayor, helados para negocio"
+    >
+
+    <meta name="author" content="DULCE FRÍO">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+
+    <header class="navbar" id="navbar">
+
+        <div class="container nav-container">
+
+            <a href="#inicio" class="logo">
+               🍦 <span>DULCE FRÍO</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+
+                <a href="#inicio">Inicio</a>
+
+                <a href="#sabores">Sabores</a>
+
+                <a href="#mayoristas">Mayoristas</a>
+
+                <a href="#contacto">Contacto</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section class="hero" id="inicio">
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+
+            <span class="hero-badge">
+                🍦 DULCE FRÍO
+            </span>
+
+            <h1>El sabor que <span> provoca</span></h1>
+            <p>
+                En DULCE FRÍO creamos helados refrescantes, deliciosos y llenos de sabor.
+                Disfrútalos, compártelos o conviértelos en una oportunidad de negocio.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#sabores" class="btn btn-primary">
+                    <i class="fas fa-ice-cream"></i>
+                    Ver sabores
+                </a>
+
+                <a href="#mayoristas" class="btn btn-secondary">
+                    <i class="fas fa-store"></i>
+                    Quiero vender
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         INTRO
+    ========================== -->
+
+    <section class="intro section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="section-tag">
+                    NUESTROS HELADOS
+                </span>
+
+                <h2>
+                    Un sabor para cada antojo
+                </h2>
+
+                <p>
+                    Preparamos nuestros helados pensando en quienes buscan
+                    algo refrescante, delicioso y diferente.
+                </p>
+
+            </div>
+
+            <div class="intro-grid">
+
+                <div class="intro-card">
+
+                    <div class="intro-icon">
+                        🍓
+                    </div>
+
+                    <h3>Sabores frutales</h3>
+
+                    <p>
+                        Combinaciones refrescantes con sabores que conquistan
+                        desde el primer bocado.
+                    </p>
+
+                </div>
+
+
+                <div class="intro-card">
+
+                    <div class="intro-icon">
+                        🌶️
+                    </div>
+
+                    <h3>Con Chamoy</h3>
+
+                    <p>
+                        Para quienes disfrutan ese toque dulce, ácido y
+                        picante que hace la diferencia.
+                    </p>
+
+                </div>
+
+
+                <div class="intro-card">
+
+                    <div class="intro-icon">
+                        💰
+                    </div>
+
+                    <h3>También para emprender</h3>
+
+                    <p>
+                        Compra nuestros productos al por mayor y conviértelos
+                        en una oportunidad de negocio.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CARRUSEL
+    ========================== -->
+
+    <section class="gallery section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="section-tag">
+                    ¡SE TE ANTOJÓ!
+                </span>
+
+                <h2>
+                    Mira lo que tenemos para ti
+                </h2>
+
+            </div>
+
+
+            <div class="carousel" id="carousel">
+
+                <div class="carousel-track" id="carouselTrack">
+
+                    <div class="carousel-slide">
+
+                        <img src="img/helado-1.png"
+                             alt="Helado delicioso">
+
+                    </div>
+
+
+                    <div class="carousel-slide">
+
+                        <img src="img/helado-2.jpg"
+                             alt="Helado de fruta">
+
+                    </div>
+
+
+                    <div class="carousel-slide">
+
+                        <img src="img/helado-3.png"
+                             alt="Helado refrescante">
+
+                    </div>
+
+
+                    <div class="carousel-slide">
+
+                        <img src="img/helado-4.png"
+                             alt="Helado artesanal">
+
+                    </div>
+
+
+                    <div class="carousel-slide">
+
+                        <img src="img/helado-5.jpg"
+                             alt="Helado con fruta">
+
+                    </div>
+                    <div class="carousel-slide">
+
+                        <img src="img/helado-6.jpg"
+                             alt="Helado con fruta">
+
+                    </div>
+                    <div class="carousel-slide">
+
+                        <img src="img/helado-7.png"
+                             alt="Helado con fruta">
+
+                    </div>
+
+                </div>
+
+
+                <button class="carousel-btn prev"
+                        id="prevBtn"
+                        aria-label="Imagen anterior">
+
+                    <i class="fas fa-chevron-left"></i>
+
+                </button>
+
+
+                <button class="carousel-btn next"
+                        id="nextBtn"
+                        aria-label="Imagen siguiente">
+
+                    <i class="fas fa-chevron-right"></i>
+
+                </button>
+
+
+                <div class="carousel-dots" id="carouselDots"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SABORES
+    ========================== -->
+
+    <section class="products section" id="sabores">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="section-tag">
+                    NUESTRO CATÁLOGO
+                </span>
+
+                <h2>Descubre el sabor de DULCE FRÍO</h2>
+
+                <p>
+                    Elige tu favorito y disfruta una combinación refrescante, deliciosa y llena de sabor.
+                    También tenemos opciones para quienes quieren vender nuestros productos.
+                </p>
+
+            </div>
+
+
+            <div class="products-grid">
+
+
+                <!-- PRODUCTO 1 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="img/helado-1.png"
+                             alt="Helado Mangobiche">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            FRUTAL
+                        </span>
+
+                        <span class="product-category">FRUTAL</span>
+
+                        <h3>Mangobiche</h3>
+
+                        <p>
+                            El delicioso sabor del mango convertido en un helado refrescante,
+                            tropical y perfecto para cualquier momento.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                $2.000
+                            </strong>
+
+                            <button onclick="pedirProducto('Mangobiche')"
+                                    class="btn-product">
+
+                                <i class="fab fa-whatsapp"></i>
+                                Pedir
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 2 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="img/helado-2.jpg"
+                             alt="Helado Mangobiche con Chamoy">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            ESPECIAL
+                        </span>
+
+                        <h3>Mangobiche con Chamoy</h3>
+
+                        <p>
+                            Mango con el toque especial de Chamoy
+                            para los amantes de los sabores intensos.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                $2.000
+                            </strong>
+
+                            <button onclick="pedirProducto('Mangobiche con Chamoy')"
+                                    class="btn-product">
+
+                                <i class="fab fa-whatsapp"></i>
+                                Pedir
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 3 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="img/helado-3.png"
+                             alt="Helado Maracumango">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            FRUTAL
+                        </span>
+
+                        <h3>Maracumango</h3>
+
+                        <p>
+                            Una combinación tropical de maracuyá
+                            y mango.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                $2.000
+                            </strong>
+
+                            <button onclick="pedirProducto('Maracumango')"
+                                    class="btn-product">
+
+                                <i class="fab fa-whatsapp"></i>
+                                Pedir
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 4 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="img/helado-4.png"
+                             alt="Helado Maracumango con Chamoy">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            ESPECIAL
+                        </span>
+
+                        <h3>Maracumango con Chamoy</h3>
+
+                        <p>
+                            Una combinación tropical con ese toque
+                            ácido y picante que provoca más.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                $2.000
+                            </strong>
+
+                            <button onclick="pedirProducto('Maracumango con Chamoy')"
+                                    class="btn-product">
+
+                                <i class="fab fa-whatsapp"></i>
+                                Pedir
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 5 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="img/helado-5.jpg"
+                             alt="Helado combinado">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            COMBINADO
+                        </span>
+
+                        <h3>Combinados</h3>
+
+                        <p>
+                            Una mezcla de sabores para quienes quieren
+                            probar algo diferente.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                $2.000
+                            </strong>
+
+                            <button onclick="pedirProducto('Combinados')"
+                                    class="btn-product">
+
+                                <i class="fab fa-whatsapp"></i>
+                                Pedir
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 6 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="img/helado-6.jpg"
+                             alt="Combinados con Chamoy">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            ESPECIAL
+                        </span>
+
+                        <h3>Combinados con Chamoy</h3>
+
+                        <p>
+                            La combinación perfecta para los amantes
+                            de los sabores intensos.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                $2.000
+                            </strong>
+
+                            <button onclick="pedirProducto('Combinados con Chamoy')"
+                                    class="btn-product">
+
+                                <i class="fab fa-whatsapp"></i>
+                                Pedir
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- BOLIS -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="img/helado-7.png"
+                             alt="Bolis">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            REFRESCANTE
+                        </span>
+
+                        <h3>Bolis</h3>
+
+                        <p>
+                            Una opción económica, refrescante y perfecta
+                            para vender.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                $1.000
+                            </strong>
+
+                            <button onclick="pedirProducto('Bolis')"
+                                    class="btn-product">
+
+                                <i class="fab fa-whatsapp"></i>
+                                Pedir
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+   
+
+
+
+
+    <!-- =========================
+         MAYORISTAS
+    ========================== -->
+
+    <section class="wholesale section" id="mayoristas">
+        <!-- =========================
+     CALCULADORA MAYORISTA
+========================== -->
+
+<section class="calculator section" id="calculadora">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-tag">
+                COTIZA TU PEDIDO
+            </span>
+
+            <h2>
+                Calcula tu pedido al por mayor
+            </h2>
+
+            <p>
+                Selecciona la cantidad de helados que quieres comprar
+                y obtén tu cotización automáticamente.
+            </p>
+
+        </div>
+
+
+        <div class="calculator-box calculator-wholesale">
+
+            <div class="calculator-info">
+
+                <div class="calculator-icon">
+                    🍦
+                </div>
+
+                <h3>
+                    Precios mayoristas
+                </h3>
+
+                <p>
+                    Entre más helados compres, mejor será el precio
+                    por unidad.
+                </p>
+
+
+                <div class="wholesale-prices">
+
+                    <div class="wholesale-price">
+
+                        <span>
+                            20 - 39 helados
+                        </span>
+
+                        <strong>
+                            $1.600 c/u
+                        </strong>
+
+                    </div>
+
+
+                    <div class="wholesale-price">
+
+                        <span>
+                            40 - 79 helados
+                        </span>
+
+                        <strong>
+                            $1.500 c/u
+                        </strong>
+
+                    </div>
+
+
+                    <div class="wholesale-price">
+
+                        <span>
+                            80 - 149 helados
+                        </span>
+
+                        <strong>
+                            $1.400 c/u
+                        </strong>
+
+                    </div>
+
+
+                    <div class="wholesale-price">
+
+                        <span>
+                            150+ helados
+                        </span>
+
+                        <strong>
+                            $1.300 c/u
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="calculator-form">
+
+                <div class="input-group">
+
+                    <label for="pedidoNombre">
+                        Nombre
+                    </label>
+
+                    <input
+                        type="text"
+                        id="pedidoNombre"
+                        placeholder="Escribe tu nombre"
+                    >
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label for="pedidoCantidad">
+                        Cantidad de helados
+                    </label>
+
+                    <input
+                        type="number"
+                        id="pedidoCantidad"
+                        min="20"
+                        step="1"
+                        placeholder="Mínimo 20"
+                    >
+
+                    <small class="calculator-help">
+                        Pedido mínimo: 20 helados
+                    </small>
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label for="pedidoLugar">
+                        Lugar de entrega
+                    </label>
+
+                    <input
+                        type="text"
+                        id="pedidoLugar"
+                        placeholder="Ej: Ubaté, Cundinamarca"
+                    >
+
+                </div>
+
+
+                <div
+                    id="pedidoError"
+                    class="pedido-error"
+                ></div>
+
+
+                <div
+                    id="pedidoCotizacion"
+                    class="pedido-cotizacion"
+                >
+
+                    <div class="cotizacion-header">
+
+                        <span>
+                            🍦 Tu cotización
+                        </span>
+
+                    </div>
+
+
+                    <div class="cotizacion-row">
+
+                        <span>
+                            Cantidad
+                        </span>
+
+                        <strong id="pedidoResultadoCantidad">
+                            0
+                        </strong>
+
+                    </div>
+
+
+                    <div class="cotizacion-row">
+
+                        <span>
+                            Precio por helado
+                        </span>
+
+                        <strong id="pedidoResultadoPrecio">
+                            $0
+                        </strong>
+
+                    </div>
+
+
+                    <div class="cotizacion-total">
+
+                        <span>
+                            Total del pedido
+                        </span>
+
+                        <strong id="pedidoResultadoTotal">
+                            $0
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    type="button"
+                    class="btn btn-whatsapp calculator-whatsapp"
+                    id="pedidoWhatsapp"
+                >
+
+                    <i class="fab fa-whatsapp"></i>
+
+                    Pedir por WhatsApp
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+        <div class="container">
+
+            <div class="wholesale-content">
+
+
+                <div class="wholesale-text">
+
+                    <span class="section-tag">
+                        PARA EMPRENDEDORES
+                    </span>
+
+                    <h2>
+                        ¿Quieres vender nuestros helados?
+                    </h2>
+
+                    <p>
+                        Si tienes una tienda, cafetería, negocio,
+                        colegio, restaurante o simplemente quieres
+                        comenzar a vender helados, podemos ayudarte.
+                    </p>
+
+                    <p>
+                        Manejamos <strong>precios especiales por volumen</strong>
+                        para nuestros clientes mayoristas.
+                    </p>
+
+
+                    <div class="wholesale-benefits">
+
+                        <div class="benefit">
+
+                            <i class="fas fa-box"></i>
+
+                            <div>
+
+                                <h4>Compra por volumen</h4>
+
+                                <p>
+                                    Entre mayor sea tu pedido,
+                                    podemos ofrecerte mejores condiciones.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="benefit">
+
+                            <i class="fas fa-handshake"></i>
+
+                            <div>
+
+                                <h4>Negociación directa</h4>
+
+                                <p>
+                                    Cotizamos tu pedido de acuerdo
+                                    con la cantidad que necesites.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="benefit">
+
+                            <i class="fas fa-store"></i>
+
+                            <div>
+
+                                <h4>Ideal para revender</h4>
+
+                                <p>
+                                    Lleva nuestros helados a tu negocio
+                                    y crea tu propia oportunidad de venta.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <button onclick="contactarMayorista()"
+                            class="btn btn-whatsapp">
+
+                        <i class="fab fa-whatsapp"></i>
+
+                        Quiero cotizar al por mayor
+
+                    </button>
+
+                </div>
+
+
+                <div class="wholesale-card">
+
+                    <div class="wholesale-card-icon">
+                        📦
+                    </div>
+
+                    <h3>
+                        Precios por volumen
+                    </h3>
+
+                    <p>
+                        ¿Cuántos quieres comprar?
+                    </p>
+
+                    <div class="quantity-list">
+
+                        <div class="quantity-item">
+
+                            <span>
+                                Pedidos pequeños
+                            </span>
+
+                            <strong>
+                                Consultar
+                            </strong>
+
+                        </div>
+
+
+                        <div class="quantity-item">
+
+                            <span>
+                                Pedidos medianos
+                            </span>
+
+                            <strong>
+                                Consultar
+                            </strong>
+
+                        </div>
+
+
+                        <div class="quantity-item">
+
+                            <span>
+                                Pedidos grandes
+                            </span>
+
+                            <strong>
+                                Consultar
+                            </strong>
+
+                        </div>
+
+
+                        <div class="quantity-item">
+
+                            <span>
+                                Distribuidores
+                            </span>
+
+                            <strong>
+                                Negociable
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <small>
+                        El precio mayorista se determina según
+                        la cantidad solicitada y las condiciones
+                        del pedido.
+                    </small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+
+    <!-- =========================
+         CTA
+    ========================== -->
+
+    <section class="cta">
+
+        <div class="container">
+
+            <div class="cta-content">
+
+                <h2>
+                    ¿Se te antojaron?
+                </h2>
+
+                <p>
+                    Escríbenos y haz tu pedido.
+                </p>
+
+                <button onclick="hacerPedidoGeneral()"
+                        class="btn btn-whatsapp">
+
+                    <i class="fab fa-whatsapp"></i>
+
+                    Pedir por WhatsApp
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACTO
+    ========================== -->
+
+    <section class="contact section" id="contacto">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="section-tag">
+                    CONTÁCTANOS
+                </span>
+
+                <h2>
+                    Estamos para atenderte
+                </h2>
+
+                <p>
+                    Haz tu pedido o solicita una cotización
+                    para compras al por mayor.
+                </p>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+                <div class="contact-card">
+
+                    <i class="fab fa-whatsapp"></i>
+
+                    <h3>
+                        WhatsApp
+                    </h3>
+
+                    <p>
+                        Pedidos y cotizaciones
+                    </p>
+
+                    <button onclick="contactarWhatsApp()"
+                            class="btn btn-whatsapp">
+
+                        Escribir ahora
+
+                    </button>
+
+                </div>
+
+
+                <div class="contact-card">
+
+                    <i class="fas fa-boxes-stacked"></i>
+
+                    <h3>
+                        Ventas al por mayor
+                    </h3>
+
+                    <p>
+                        Pregunta por nuestras condiciones
+                        para distribuidores y revendedores.
+                    </p>
+
+                    <button onclick="contactarMayorista()"
+                            class="btn btn-primary">
+
+                        Solicitar cotización
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-content">
+
+                <div>
+
+                    <h3>
+                        🍦 DULCE FRÍO
+                    </h3>
+
+                    <p>
+                        Sabor que provoca.
+                    </p>
+
+                </div>
+
+
+                <div class="footer-links">
+
+                    <a href="#inicio">
+                        Inicio
+                    </a>
+
+                    <a href="#sabores">
+                        Sabores
+                    </a>
+
+                    <a href="#mayoristas">
+                        Mayoristas
+                    </a>
+
+                    <a href="#contacto">
+                        Contacto
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    © <span id="year"></span> Dulce Frío.
+                    Todos los derechos reservados.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================
+         WHATSAPP FLOTANTE
+    ========================== -->
+
+    <button class="whatsapp-float"
+            onclick="contactarWhatsApp()"
+            aria-label="Contactar por WhatsApp">
+
+        <i class="fab fa-whatsapp"></i>
+
+    </button>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
