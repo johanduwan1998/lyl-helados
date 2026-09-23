@@ -680,3 +680,4 @@ document.addEventListener(
 
     }
 );
+navLinks.classList.toggle("active");
