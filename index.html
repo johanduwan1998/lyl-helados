@@ -1,90 +1,192 @@
-
 <!DOCTYPE html>
+
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="LyL - Helados artesanales, deliciosos sabores y precios especiales por mayor.">
-    <meta name="theme-color" content="#ff7b54">
 
-    <title>LyL | Helados</title>
+<meta charset="UTF-8">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<meta name="description"
+      content="LyL - Helados artesanales, deliciosos sabores y precios especiales por mayor.">
 
-    <link rel="stylesheet" href="styles.css">
+<meta name="theme-color"
+      content="#a855f7">
+
+<meta name="keywords"
+      content="helados, LyL, helados artesanales, mangobiche, maracumango, chamoy, salpicón">
+
+<meta name="author"
+      content="LyL Helados">
+
+<title>LyL | Helados</title>
+
+
+<!-- ================= GOOGLE FONTS ================= -->
+
+<link rel="preconnect"
+      href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet">
+
+
+<!-- ================= FONT AWESOME ================= -->
+
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+<!-- ================= CSS ================= -->
+
+<link rel="stylesheet"
+      href="styles.css">
+
+
 </head>
 
 <body>
 
-    <!-- ================= HEADER ================= -->
-    <header class="header">
 
-        <div class="container nav-container">
+<!-- =====================================================
+     HEADER
+====================================================== -->
 
-            <a href="#inicio" class="logo">
-                <img src="img/logo.png" alt="Logo LyL">
+<header class="header">
+
+    <div class="container header-container">
+
+        <!-- LOGO -->
+
+        <a href="#inicio"
+           class="logo"
+           aria-label="Ir al inicio">
+
+            <img src="img/logo.png"
+                 alt="Logo LyL">
+
+        </a>
+
+
+        <!-- BOTÓN MENÚ MÓVIL -->
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            type="button"
+            aria-label="Abrir menú"
+            aria-expanded="false">
+
+            <i class="fas fa-bars"></i>
+
+        </button>
+
+
+        <!-- NAVEGACIÓN -->
+
+        <nav class="nav"
+             id="navMenu"
+             aria-label="Navegación principal">
+
+            <a href="#inicio">
+                Inicio
             </a>
 
-            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
-                <i class="fas fa-bars"></i>
-            </button>
-            
-            <nav class="nav" id="navMenu">
-                <a href="#inicio">Inicio</a>
-                <a href="#sabores">Sabores</a>
-                <a href="#mayoristas">Mayoristas</a>
-                <a href="#contacto">Contacto</a>
-            </nav>
+            <a href="#sabores">
+                Sabores
+            </a>
 
-        </div>
+            <a href="#mayoristas">
+                Mayoristas
+            </a>
 
-    </header>
+            <a href="#contacto">
+                Contacto
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
 
 
-    <!-- ================= HERO ================= -->
-<section class="hero" id="inicio">
 
-    <!-- Imagen de portada -->
+<!-- =====================================================
+     HERO
+====================================================== -->
+
+<section class="hero"
+         id="inicio">
+
+
+    <!-- CAPA OSCURA SOBRE LA IMAGEN -->
+
     <div class="hero-overlay"></div>
+
 
     <div class="container hero-content">
 
         <div class="hero-text">
 
+
             <span class="hero-small">
+
                 <i class="fas fa-ice-cream"></i>
+
                 Sabor que provoca
+
             </span>
 
+
             <h1>
+
                 Disfruta un momento
-                <span>delicioso</span>
+
+                <span>
+                    delicioso
+                </span>
+
             </h1>
 
+
             <p>
+
                 Descubre nuestros sabores de helados y disfruta
                 una combinación irresistible de frutas y chamoy.
+
             </p>
+
 
             <div class="hero-buttons">
 
-                <a href="#sabores" class="btn btn-primary">
+
+                <a href="#sabores"
+                   class="btn btn-primary">
+
                     <i class="fas fa-ice-cream"></i>
+
                     Ver sabores
+
                 </a>
 
-                <a href="#mayoristas" class="btn btn-secondary">
+
+                <a href="#mayoristas"
+                   class="btn btn-secondary">
+
                     <i class="fas fa-box"></i>
+
                     Comprar por mayor
+
                 </a>
+
 
             </div>
 
@@ -96,662 +198,1063 @@
 
 
 
+<!-- =====================================================
+     SABORES
+====================================================== -->
 
-    <!-- ================= SABORES ================= -->
-    <section class="sabores section" id="sabores">
+<section class="sabores section"
+         id="sabores">
 
-        <div class="container">
 
-            <div class="section-header">
+    <div class="container">
 
-                <span class="section-tag">
-                    <i class="fas fa-heart"></i>
-                    Nuestros sabores
-                </span>
 
-                <h2>
-                    Elige tu favorito
-                </h2>
+        <!-- ENCABEZADO -->
 
-                <p>
-                    Tenemos diferentes combinaciones para que encuentres
-                    el sabor perfecto para ti.
-                </p>
+        <div class="section-header">
 
-            </div>
+            <span class="section-label">
 
+                <i class="fas fa-heart"></i>
 
-            <div class="products-grid">
+                Nuestros sabores
 
-                <!-- Mangobiche -->
-                <article class="product-card">
+            </span>
 
-                    <div class="product-image">
-                        <img src="img/mangobiche.png"
-                             alt="Helado de Mangobiche"
-                             loading="lazy">
-                    </div>
 
-                    <div class="product-info">
+            <h2>
+                Elige tu favorito
+            </h2>
 
-                        <span class="product-number">01</span>
-
-                        <h3>Mangobiche</h3>
-
-                        <p>
-                            Un delicioso sabor a mango para disfrutar
-                            en cualquier momento.
-                        </p>
-
-                        <div class="product-bottom">
-                            <strong>$2.000</strong>
-                            <a href="#mayoristas" class="product-link">
-                                Pedir <i class="fas fa-arrow-right"></i>
-                            </a>
-                        </div>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Maracumango -->
-                <article class="product-card">
-
-                    <div class="product-image">
-                        <img src="img/maracumango.png"
-                             alt="Helado de Maracumango"
-                             loading="lazy">
-                    </div>
-
-                    <div class="product-info">
-
-                        <span class="product-number">02</span>
-
-                        <h3>Maracumango</h3>
-
-                        <p>
-                            La combinación de maracuyá y mango
-                            en un solo helado.
-                        </p>
-
-                        <div class="product-bottom">
-                            <strong>$2.000</strong>
-                            <a href="#mayoristas" class="product-link">
-                                Pedir <i class="fas fa-arrow-right"></i>
-                            </a>
-                        </div>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Combinado -->
-                <article class="product-card">
-
-                    <div class="product-image">
-                        <img src="img/combinado.jpg"
-                             alt="Helado combinado de Mangobiche y Maracumango"
-                             loading="lazy">
-                    </div>
-
-                    <div class="product-info">
-
-                        <span class="product-number">03</span>
-
-                        <h3>Combinado</h3>
-
-                        <p>
-                            Mitad Mangobiche y mitad Maracumango.
-                        </p>
-
-                        <div class="product-bottom">
-                            <strong>$2.000</strong>
-                            <a href="#mayoristas" class="product-link">
-                                Pedir <i class="fas fa-arrow-right"></i>
-                            </a>
-                        </div>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Mangobiche Chamoy -->
-                <article class="product-card">
-
-                    <div class="product-image">
-                        <img src="img/mangobiche-chamoy.jpg"
-                             alt="Helado de Mangobiche con Chamoy"
-                             loading="lazy">
-                    </div>
-
-                    <div class="product-info">
-
-                        <span class="product-number">04</span>
-
-                        <h3>Mangobiche con Chamoy</h3>
-
-                        <p>
-                            Mangobiche acompañado del toque especial
-                            del chamoy.
-                        </p>
-
-                        <div class="product-bottom">
-                            <strong>$2.000</strong>
-                            <a href="#mayoristas" class="product-link">
-                                Pedir <i class="fas fa-arrow-right"></i>
-                            </a>
-                        </div>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Maracumango Chamoy -->
-                <article class="product-card">
-
-                    <div class="product-image">
-                        <img src="img/maracumango-chamoy.png"
-                             alt="Helado de Maracumango con Chamoy"
-                             loading="lazy">
-                    </div>
-
-                    <div class="product-info">
-
-                        <span class="product-number">05</span>
-
-                        <h3>Maracumango con Chamoy</h3>
-
-                        <p>
-                            Maracumango con ese toque ácido y especial
-                            que aporta el chamoy.
-                        </p>
-
-                        <div class="product-bottom">
-                            <strong>$2.000</strong>
-                            <a href="#mayoristas" class="product-link">
-                                Pedir <i class="fas fa-arrow-right"></i>
-                            </a>
-                        </div>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Combinado Chamoy -->
-                <article class="product-card">
-
-                    <div class="product-image">
-                        <img src="img/combinado-chamoy.jpg"
-                             alt="Helado combinado con Chamoy"
-                             loading="lazy">
-                    </div>
-
-                    <div class="product-info">
-
-                        <span class="product-number">06</span>
-
-                        <h3>Combinado con Chamoy</h3>
-
-                        <p>
-                            Mitad Mangobiche, mitad Maracumango
-                            y un toque de chamoy.
-                        </p>
-
-                        <div class="product-bottom">
-                            <strong>$2.000</strong>
-                            <a href="#mayoristas" class="product-link">
-                                Pedir <i class="fas fa-arrow-right"></i>
-                            </a>
-                        </div>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Salpicón -->
-                <article class="product-card featured-product">
-
-                    <div class="product-badge">
-                        NUEVO
-                    </div>
-
-                    <div class="product-image">
-                        <img src="img/salpicon.jpg"
-                             alt="Helado de Salpicón"
-                             loading="lazy">
-                    </div>
-
-                    <div class="product-info">
-
-                        <span class="product-number">07</span>
-
-                        <h3>Salpicón</h3>
-
-                        <p>
-                            Nuestro nuevo sabor para quienes quieren
-                            probar algo diferente.
-                        </p>
-
-                        <div class="product-bottom">
-                            <strong>$2.000</strong>
-                            <a href="#mayoristas" class="product-link">
-                                Pedir <i class="fas fa-arrow-right"></i>
-                            </a>
-                        </div>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= MAYORISTAS ================= -->
-    <section class="mayoristas section" id="mayoristas">
-
-        <div class="container">
-
-            <div class="wholesale-layout">
-
-                <div class="wholesale-info">
-
-                    <span class="section-tag light-tag">
-                        <i class="fas fa-boxes-stacked"></i>
-                        Pedidos al por mayor
-                    </span>
-
-                    <h2>
-                        ¿Quieres llevar
-                        <span>más?</span>
-                    </h2>
-
-                    <p>
-                        Compra nuestros helados por cantidad y obtén
-                        precios especiales.
-                    </p>
-
-                    <div class="price-list">
-
-                        <div class="price-item">
-                            <span>
-                                <i class="fas fa-ice-cream"></i>
-                                1 a 49 helados
-                            </span>
-                            <strong>$2.000</strong>
-                        </div>
-
-                        <div class="price-item">
-                            <span>
-                                <i class="fas fa-ice-cream"></i>
-                                50 a 79 helados
-                            </span>
-                            <strong>$1.500</strong>
-                        </div>
-
-                        <div class="price-item">
-                            <span>
-                                <i class="fas fa-ice-cream"></i>
-                                80 a 99 helados
-                            </span>
-                            <strong>$1.200</strong>
-                        </div>
-
-                        <div class="price-item">
-                            <span>
-                                <i class="fas fa-ice-cream"></i>
-                                100 o más
-                            </span>
-                            <strong>$1.000</strong>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-               
-                <!-- ================= CALCULADORA / CARRITO ================= -->
-
-                <div class="calculator-card">
-
-                    <div class="calculator-header">
-
-                        <div>
-                            <span>CALCULADORA</span>
-                            <h3>Arma tu pedido</h3>
-                        </div>
-
-                        <i class="fas fa-cart-shopping"></i>
-
-                    </div>
-
-
-                    <!-- AGREGAR PRODUCTO -->
-
-                    <div class="form-group">
-
-                        <label for="sabor">
-                            Sabor
-                        </label>
-
-                        <select id="sabor">
-
-                            <option value="Mangobiche">
-                                Mangobiche
-                            </option>
-
-                            <option value="Maracumango">
-                                Maracumango
-                            </option>
-
-                            <option value="Combinado">
-                                Combinado
-                            </option>
-
-                            <option value="Mangobiche con Chamoy">
-                                Mangobiche con Chamoy
-                            </option>
-
-                            <option value="Maracumango con Chamoy">
-                                Maracumango con Chamoy
-                            </option>
-
-                            <option value="Combinado con Chamoy">
-                                Combinado con Chamoy
-                            </option>
-
-                            <option value="Salpicón">
-                                Salpicón
-                            </option>
-
-                        </select>
-
-                    </div>
-
-
-                    <div class="form-group">
-
-                        <label for="cantidad">
-                            Cantidad
-                        </label>
-
-                        <input
-                            type="number"
-                            id="cantidad"
-                            min="1"
-                            value="1"
-                            placeholder="Ej: 20"
-                        >
-
-                    </div>
-
-
-                    <button
-                        type="button"
-                        class="btn-add-product"
-                        onclick="agregarProducto()">
-
-                        <i class="fas fa-plus"></i>
-
-                        Agregar al pedido
-
-                    </button>
-
-
-                    <!-- CARRITO -->
-
-                    <div
-                        class="cart-container"
-                        id="cartContainer">
-
-                        <div class="cart-empty">
-
-                            <i class="fas fa-basket-shopping"></i>
-
-                            <p>
-                                Tu pedido está vacío
-                            </p>
-
-                            <small>
-                                Agrega sabores para comenzar.
-                            </small>
-
-                        </div>
-
-                    </div>
-
-
-                    <!-- RESUMEN -->
-
-                    <div
-                        class="quote-result"
-                        id="quoteResult">
-
-                        <div class="quote-row">
-
-                            <span>
-                                Total de helados
-                            </span>
-
-                            <strong id="totalCantidad">
-                                0
-                            </strong>
-
-                        </div>
-
-
-                        <div class="quote-row">
-
-                            <span>
-                                Precio por helado
-                            </span>
-
-                            <strong id="precioUnitario">
-                                $0
-                            </strong>
-
-                        </div>
-
-
-                        <div class="quote-row total-row">
-
-                            <span>
-                                Total
-                            </span>
-
-                            <strong id="totalPedido">
-                                $0
-                            </strong>
-
-                        </div>
-
-                    </div>
-
-
-                    <!-- DATOS CLIENTE -->
-
-                    <div class="form-group">
-
-                        <label for="nombreCliente">
-                            Tu nombre
-                        </label>
-
-                        <input
-                            type="text"
-                            id="nombreCliente"
-                            placeholder="Escribe tu nombre"
-                        >
-
-                    </div>
-
-
-                    <div class="form-group">
-
-                        <label for="lugarCliente">
-                            Lugar de entrega
-                        </label>
-
-                        <input
-                            type="text"
-                            id="lugarCliente"
-                            placeholder="¿Dónde deseas recibirlo?"
-                        >
-
-                    </div>
-
-
-                    <button
-                        type="button"
-                        class="btn-whatsapp"
-                        onclick="enviarPedidoWhatsApp()">
-
-                        <i class="fab fa-whatsapp"></i>
-
-                        Cotizar por WhatsApp
-
-                    </button>
-
-
-                    <small class="calculator-note">
-
-                        El precio se calcula automáticamente
-                        según la cantidad total del pedido.
-
-                    </small>
-
-                </div>
-
-
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= CONTACTO ================= -->
-    <section class="contacto section" id="contacto">
-
-        <div class="container">
-
-            <div class="contact-card">
-
-                <div class="contact-icon">
-                    <i class="fas fa-ice-cream"></i>
-                </div>
-
-                <div class="contact-text">
-
-                    <span>¿Tienes alguna pregunta?</span>
-
-                    <h2>
-                        Hablemos por WhatsApp
-                    </h2>
-
-                    <p>
-                        Escríbenos para realizar tu pedido
-                        o conocer nuestros productos.
-                    </p>
-
-                </div>
-
-                <a
-                    href="https://wa.me/573118920775"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn btn-primary">
-
-                    <i class="fab fa-whatsapp"></i>
-                    Escribirnos
-
-                </a>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= FOOTER ================= -->
-    <footer class="footer" id="footer">
-
-        <div class="container footer-content">
-
-            <div class="footer-brand">
-
-                <img src="img/logo.png"
-                     alt="Logo LyL">
-
-                <p>
-                    Helados LyL
-                </p>
-
-            </div>
-
-            <div class="footer-links">
-
-                <a href="#inicio">Inicio</a>
-                <a href="#sabores">Sabores</a>
-                <a href="#mayoristas">Mayoristas</a>
-                <a href="#contacto">Contacto</a>
-
-            </div>
-
-            <div class="footer-social">
-
-                <a
-                    href="https://wa.me/573118920775"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="WhatsApp">
-
-                    <i class="fab fa-whatsapp"></i>
-
-                </a>
-
-            </div>
-
-        </div>
-
-        <div class="footer-bottom">
 
             <p>
-                © 2026 LyL. Todos los derechos reservados.
+
+                Tenemos diferentes combinaciones para que encuentres
+                el sabor perfecto para ti.
+
             </p>
 
         </div>
 
-    </footer>
 
 
-    <!-- ================= WHATSAPP FLOAT ================= -->
+        <!-- PRODUCTOS -->
 
-    <a
-        href="https://wa.me/573118920775"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="whatsapp-float"
-        aria-label="Contactar por WhatsApp">
-
-        <i class="fab fa-whatsapp"></i>
-
-    </a>
+        <div class="products-grid">
 
 
-    <script src="script.js"></script>
+            <!-- ================= MANGOBICHE ================= -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img
+                        src="img/mangobiche.png"
+                        alt="Helado de Mangobiche"
+                        loading="lazy">
+
+                </div>
+
+
+                <div class="product-content">
+
+                    <span class="product-number">
+                        01
+                    </span>
+
+                    <h3>
+                        Mangobiche
+                    </h3>
+
+                    <p>
+
+                        Un delicioso sabor a mango para disfrutar
+                        en cualquier momento.
+
+                    </p>
+
+
+                    <div class="product-bottom">
+
+                        <strong>
+                            $2.000
+                        </strong>
+
+
+                        <a href="#mayoristas"
+                           class="product-link">
+
+                            Pedir
+
+                            <i class="fas fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- ================= MARACUMANGO ================= -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img
+                        src="img/maracumango.png"
+                        alt="Helado de Maracumango"
+                        loading="lazy">
+
+                </div>
+
+
+                <div class="product-content">
+
+                    <span class="product-number">
+                        02
+                    </span>
+
+                    <h3>
+                        Maracumango
+                    </h3>
+
+                    <p>
+
+                        La combinación de maracuyá y mango
+                        en un solo helado.
+
+                    </p>
+
+
+                    <div class="product-bottom">
+
+                        <strong>
+                            $2.000
+                        </strong>
+
+
+                        <a href="#mayoristas"
+                           class="product-link">
+
+                            Pedir
+
+                            <i class="fas fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- ================= COMBINADO ================= -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img
+                        src="img/combinado.jpg"
+                        alt="Helado combinado de Mangobiche y Maracumango"
+                        loading="lazy">
+
+                </div>
+
+
+                <div class="product-content">
+
+                    <span class="product-number">
+                        03
+                    </span>
+
+                    <h3>
+                        Combinado
+                    </h3>
+
+                    <p>
+
+                        Mitad Mangobiche y mitad Maracumango.
+
+                    </p>
+
+
+                    <div class="product-bottom">
+
+                        <strong>
+                            $2.000
+                        </strong>
+
+
+                        <a href="#mayoristas"
+                           class="product-link">
+
+                            Pedir
+
+                            <i class="fas fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- ================= MANGOBICHE CHAMOY ================= -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img
+                        src="img/mangobiche-chamoy.jpg"
+                        alt="Helado de Mangobiche con Chamoy"
+                        loading="lazy">
+
+                </div>
+
+
+                <div class="product-content">
+
+                    <span class="product-number">
+                        04
+                    </span>
+
+                    <h3>
+                        Mangobiche con Chamoy
+                    </h3>
+
+                    <p>
+
+                        Mangobiche acompañado del toque especial
+                        del chamoy.
+
+                    </p>
+
+
+                    <div class="product-bottom">
+
+                        <strong>
+                            $2.100
+                        </strong>
+
+
+                        <a href="#mayoristas"
+                           class="product-link">
+
+                            Pedir
+
+                            <i class="fas fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- ================= MARACUMANGO CHAMOY ================= -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img
+                        src="img/maracumango-chamoy.png"
+                        alt="Helado de Maracumango con Chamoy"
+                        loading="lazy">
+
+                </div>
+
+
+                <div class="product-content">
+
+                    <span class="product-number">
+                        05
+                    </span>
+
+                    <h3>
+                        Maracumango con Chamoy
+                    </h3>
+
+                    <p>
+
+                        Maracumango con ese toque ácido y especial
+                        que aporta el chamoy.
+
+                    </p>
+
+
+                    <div class="product-bottom">
+
+                        <strong>
+                            $2.100
+                        </strong>
+
+
+                        <a href="#mayoristas"
+                           class="product-link">
+
+                            Pedir
+
+                            <i class="fas fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- ================= COMBINADO CHAMOY ================= -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img
+                        src="img/combinado-chamoy.jpg"
+                        alt="Helado combinado con Chamoy"
+                        loading="lazy">
+
+                </div>
+
+
+                <div class="product-content">
+
+                    <span class="product-number">
+                        06
+                    </span>
+
+                    <h3>
+                        Combinado con Chamoy
+                    </h3>
+
+                    <p>
+
+                        Mitad Mangobiche, mitad Maracumango
+                        y un toque de chamoy.
+
+                    </p>
+
+
+                    <div class="product-bottom">
+
+                        <strong>
+                            $2.100
+                        </strong>
+
+
+                        <a href="#mayoristas"
+                           class="product-link">
+
+                            Pedir
+
+                            <i class="fas fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- ================= SALPICÓN ================= -->
+
+            <article class="product-card featured-product">
+
+
+                <div class="product-badge">
+
+                    NUEVO
+
+                </div>
+
+
+                <div class="product-image">
+
+                    <img
+                        src="img/salpicon.jpg"
+                        alt="Helado de Salpicón"
+                        loading="lazy">
+
+                </div>
+
+
+                <div class="product-content">
+
+                    <span class="product-number">
+                        07
+                    </span>
+
+                    <h3>
+                        Salpicón
+                    </h3>
+
+                    <p>
+
+                        Nuestro nuevo sabor para quienes quieren
+                        probar algo diferente.
+
+                    </p>
+
+
+                    <div class="product-bottom">
+
+                        <strong>
+                            $2.000
+                        </strong>
+
+
+                        <a href="#mayoristas"
+                           class="product-link">
+
+                            Pedir
+
+                            <i class="fas fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     MAYORISTAS
+====================================================== -->
+
+<section class="wholesale section"
+         id="mayoristas">
+
+
+    <div class="container">
+
+
+        <div class="wholesale-grid">
+
+
+            <!-- INFORMACIÓN -->
+
+            <div class="wholesale-info">
+
+
+                <span class="section-label light-tag">
+
+                    <i class="fas fa-boxes-stacked"></i>
+
+                    Pedidos al por mayor
+
+                </span>
+
+
+                <h2>
+
+                    ¿Quieres llevar
+
+                    <span>
+                        más?
+                    </span>
+
+                </h2>
+
+
+                <p>
+
+                    Compra nuestros helados por cantidad y obtén
+                    precios especiales.
+
+                </p>
+
+
+                <div class="wholesale-list">
+
+
+                    <div class="price-row">
+
+                        <span>
+
+                            <i class="fas fa-ice-cream"></i>
+
+                            1 a 49 helados
+
+                        </span>
+
+                        <strong>
+                            $2.000
+                        </strong>
+
+                    </div>
+
+
+                    <div class="price-row highlight">
+
+                        <span>
+
+                            <i class="fas fa-ice-cream"></i>
+
+                            50 a 79 helados
+
+                        </span>
+
+                        <strong>
+                            $1.500
+                        </strong>
+
+                    </div>
+
+
+                    <div class="price-row">
+
+                        <span>
+
+                            <i class="fas fa-ice-cream"></i>
+
+                            80 a 99 helados
+
+                        </span>
+
+                        <strong>
+                            $1.200
+                        </strong>
+
+                    </div>
+
+
+                    <div class="price-row highlight">
+
+                        <span>
+
+                            <i class="fas fa-ice-cream"></i>
+
+                            100 o más
+
+                        </span>
+
+                        <strong>
+                            $1.000
+                        </strong>
+
+                    </div>
+
+
+                </div>
+
+
+                <p class="calculator-note">
+
+                    El valor adicional por Chamoy es de $100 por helado.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 CALCULADORA
+            ================================================== -->
+
+            <div class="calculator-card">
+
+
+                <div class="calculator-header">
+
+
+                    <div>
+
+                        <span>
+                            CALCULADORA
+                        </span>
+
+                        <h3>
+                            Arma tu pedido
+                        </h3>
+
+                    </div>
+
+
+                    <i class="fas fa-cart-shopping"></i>
+
+                </div>
+
+
+
+                <!-- SABOR -->
+
+                <div class="form-group">
+
+                    <label for="sabor">
+                        Sabor
+                    </label>
+
+
+                    <select id="sabor">
+
+
+                        <option value="Mangobiche">
+                            Mangobiche
+                        </option>
+
+
+                        <option value="Maracumango">
+                            Maracumango
+                        </option>
+
+
+                        <option value="Combinado">
+                            Combinado
+                        </option>
+
+
+                        <option value="Mangobiche con Chamoy">
+                            Mangobiche con Chamoy
+                        </option>
+
+
+                        <option value="Maracumango con Chamoy">
+                            Maracumango con Chamoy
+                        </option>
+
+
+                        <option value="Combinado con Chamoy">
+                            Combinado con Chamoy
+                        </option>
+
+
+                        <option value="Salpicón">
+                            Salpicón
+                        </option>
+
+
+                    </select>
+
+                </div>
+
+
+
+                <!-- CANTIDAD -->
+
+                <div class="form-group">
+
+                    <label for="cantidad">
+                        Cantidad
+                    </label>
+
+
+                    <input
+                        type="number"
+                        id="cantidad"
+                        min="1"
+                        value="1"
+                        inputmode="numeric"
+                        placeholder="Ej: 20">
+
+                </div>
+
+
+
+                <!-- BOTÓN AGREGAR -->
+
+                <button
+                    type="button"
+                    class="btn-add-product"
+                    onclick="agregarProducto()">
+
+                    <i class="fas fa-plus"></i>
+
+                    Agregar al pedido
+
+                </button>
+
+
+
+                <!-- ERROR -->
+
+                <div
+                    id="pedidoError"
+                    class="pedido-error"
+                    role="alert"
+                    aria-live="polite">
+                </div>
+
+
+
+                <!-- =================================================
+                     CARRITO
+                ================================================== -->
+
+                <div
+                    class="cart-container"
+                    id="cartContainer">
+
+
+                    <div class="cart-empty">
+
+
+                        <i class="fas fa-basket-shopping"></i>
+
+
+                        <p>
+                            Tu pedido está vacío
+                        </p>
+
+
+                        <small>
+                            Agrega sabores para comenzar.
+                        </small>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- =================================================
+                     RESUMEN
+                ================================================== -->
+
+                <div
+                    class="quote-result"
+                    id="quoteResult">
+
+
+                    <div class="quote-row">
+
+                        <span>
+                            Total de helados
+                        </span>
+
+                        <strong id="totalCantidad">
+                            0
+                        </strong>
+
+                    </div>
+
+
+                    <div class="quote-row">
+
+                        <span>
+                            Precio por helado
+                        </span>
+
+                        <strong id="precioUnitario">
+                            $0
+                        </strong>
+
+                    </div>
+
+
+                    <div class="quote-row total-row">
+
+                        <span>
+                            Total
+                        </span>
+
+                        <strong id="totalPedido">
+                            $0
+                        </strong>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- =================================================
+                     DATOS DEL CLIENTE
+                ================================================== -->
+
+                <div class="form-group">
+
+                    <label for="nombreCliente">
+                        Tu nombre
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="nombreCliente"
+                        autocomplete="name"
+                        placeholder="Escribe tu nombre">
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="lugarCliente">
+                        Lugar de entrega
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="lugarCliente"
+                        autocomplete="address-level2"
+                        placeholder="¿Dónde deseas recibirlo?">
+
+                </div>
+
+
+
+                <!-- =================================================
+                     WHATSAPP
+                ================================================== -->
+
+                <button
+                    type="button"
+                    class="btn-whatsapp"
+                    onclick="enviarPedidoWhatsApp()">
+
+                    <i class="fab fa-whatsapp"></i>
+
+                    Cotizar por WhatsApp
+
+                </button>
+
+
+
+                <small class="calculator-note">
+
+                    El precio se calcula automáticamente
+                    según la cantidad total del pedido.
+
+                </small>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACTO
+====================================================== -->
+
+<section class="contact section"
+         id="contacto">
+
+
+    <div class="container">
+
+
+        <div class="contact-card">
+
+
+            <div class="contact-icon">
+
+                <i class="fas fa-ice-cream"></i>
+
+            </div>
+
+
+            <div class="contact-text">
+
+
+                <span>
+                    ¿Tienes alguna pregunta?
+                </span>
+
+
+                <h2>
+                    Hablemos por WhatsApp
+                </h2>
+
+
+                <p>
+
+                    Escríbenos para realizar tu pedido
+                    o conocer nuestros productos.
+
+                </p>
+
+            </div>
+
+
+            <a
+                href="https://wa.me/573118920775"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary">
+
+                <i class="fab fa-whatsapp"></i>
+
+                Escribirnos
+
+            </a>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+====================================================== -->
+
+<footer class="footer">
+
+
+    <div class="container footer-content">
+
+
+        <!-- MARCA -->
+
+        <div class="footer-brand">
+
+
+            <img
+                src="img/logo.png"
+                alt="Logo LyL">
+
+
+            <p>
+                Helados LyL
+            </p>
+
+
+        </div>
+
+
+
+        <!-- ENLACES -->
+
+        <div class="footer-links">
+
+
+            <a href="#inicio">
+                Inicio
+            </a>
+
+
+            <a href="#sabores">
+                Sabores
+            </a>
+
+
+            <a href="#mayoristas">
+                Mayoristas
+            </a>
+
+
+            <a href="#contacto">
+                Contacto
+            </a>
+
+
+        </div>
+
+
+
+        <!-- REDES -->
+
+        <div class="footer-social">
+
+
+            <a
+                href="https://wa.me/573118920775"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp">
+
+
+                <i class="fab fa-whatsapp"></i>
+
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="footer-bottom">
+
+
+        <p>
+            © 2026 LyL. Todos los derechos reservados.
+        </p>
+
+
+    </div>
+
+
+</footer>
+
+
+
+<!-- =====================================================
+     WHATSAPP FLOTANTE
+====================================================== -->
+
+<a
+    href="https://wa.me/573118920775"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="whatsapp-float"
+    aria-label="Contactar por WhatsApp">
+
+
+    <i class="fab fa-whatsapp"></i>
+
+
+</a>
+
+
+
+<!-- =====================================================
+     JAVASCRIPT
+====================================================== -->
+
+<script src="script.js"></script>
+
 
 </body>
-</html>
 
+</html>
